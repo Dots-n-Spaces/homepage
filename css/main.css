@@ -119,13 +119,13 @@ textarea {
     width: 100vw;
     background: black;
     padding: 10px 0 10px 0;
-    height: 114px;
+    height: 100px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .content .header .logo {
-    padding: 0 20px;
+    padding: 0;
 }
 
 .content .header .logo img.logo {
