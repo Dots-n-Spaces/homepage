@@ -106,18 +106,54 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .content {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background: black;
+}
+
+.content .header {
+    width: 100vw;
+    background: black;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .header .logo {
+    padding: 0 20px;
+}
+
+.content .header .logo img.logo {
+    width: 100px;
+}
+
+.content .header .top-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.content .header .top-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .header .top-menu ul li {
+    list-style-type: none;
+    margin: 20px;
 }
 
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: white;
 }
 
 .main .main-content {
@@ -126,9 +162,10 @@ textarea {
     justify-content: space-evenly;
     min-width: 100vw;
     align-items: center;
+    padding: 30px 0;
 }
 
-.main .header {
+.main .app-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -198,7 +235,7 @@ textarea {
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 h1 {
