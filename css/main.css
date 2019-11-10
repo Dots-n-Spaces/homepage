@@ -118,7 +118,8 @@ textarea {
 .content .header {
     width: 100vw;
     background: black;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
+    height: 114px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -207,6 +208,14 @@ textarea {
     width: 100%;
 }
 
+.main .main-content .preview {
+    display: block;
+}
+
+.snap-assist .main .main-content .preview-mobile {
+    transform: translateX(0%) scale(.5);
+}
+
 .main .main-content .preview-mobile {
     display: none;
 }
@@ -236,6 +245,33 @@ textarea {
 
 a {
     color: white;
+}
+
+.snap-assist .download {
+    padding: 5px 14px 5px 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 158px;
+}
+
+.snap-assist .download a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snap-assist a.donate {
+    color: black;
+}
+
+.snap-assist .download a img {
+    width: 50px;
+}
+
+.snap-assist .download a span {
+    font-size: 24px;
 }
 
 h1 {
@@ -466,4 +502,9 @@ and (max-device-width : 737px) {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.device-macbook-pro .device-content {
+    height: 326px;
+    width: 100%;
 }
