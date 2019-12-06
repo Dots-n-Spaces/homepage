@@ -7,19 +7,24 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-@font-face { font-family: Lato; src: url('../fonts/Lato-Light.ttf'); }
-@font-face { font-family: Roboto; src: url('../fonts/RobotoCondensed-Bold.ttf'); }
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/RobotoCondensed-Bold.ttf");
+}
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: Lato;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: Lato;
 }
 
 /*
@@ -33,13 +38,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -47,12 +52,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -67,7 +72,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -75,9 +80,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -85,7 +90,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -93,257 +98,245 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
-
-
-
- /* ==========================================================================
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: black;
 }
 
 .content .header {
-    width: 100vw;
-    background: black;
-    padding: 10px 0 10px 0;
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
+  width: 100vw;
+  background: black;
+  padding: 10px 0 10px 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .content .header .logo {
-    padding: 0;
+  padding: 0;
 }
 
 .content .header .logo img.logo {
-    width: 100px;
+  width: 100px;
 }
 
 .content .header .top-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 .content .header .top-menu ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .content .header .top-menu ul li {
-    list-style-type: none;
-    margin: 20px;
+  list-style-type: none;
+  margin: 20px;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: white;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 100%;
 }
 
 .main .main-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    min-width: 100vw;
-    align-items: center;
-    padding: 30px 0;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-width: 100vw;
+  align-items: center;
+  padding: 30px 0;
+  width: 100%;
 }
 
 .snap-assist .main .main-content {
-    padding: 0;
+  padding: 0;
 }
 
 .main .app-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .main .main-content .logo {
-    margin: 30px;
+  margin: 30px;
 }
 
 .main .main-content .logo img {
-    width: 90px;
-    height: 90px
+  width: 90px;
+  height: 90px;
 }
 
 .main .main-content .logo .placeholder {
-    height: 54px;
+  height: 54px;
 }
 
 .main .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
 }
 
 .main .description .download {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .main .main-content .preview {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .main .main-content .preview img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .main .main-content .preview {
-    display: block;
+  display: block;
 }
 
 .snap-assist .main .main-content .preview-mobile {
-    transform: translateX(0%) scale(.5);
+  transform: translateX(0%) scale(0.5);
 }
 
 .main .main-content .preview-mobile {
-    display: none;
+  display: none;
 }
 
 .main .main-content .preview-mobile img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
 .footer ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .footer ul li {
-    list-style-type: none;
-    margin: 20px;
+  list-style-type: none;
+  margin: 20px;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .snap-assist .download {
-    padding: 5px 14px 5px 14px;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 158px;
+  padding: 5px 14px 5px 14px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 158px;
 }
 
 .snap-assist .download a {
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .snap-assist a.donate {
-    color: black;
+  color: black;
 }
 
 .snap-assist .download a img {
-    width: 50px;
+  width: 50px;
 }
 
 .snap-assist .download a span {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 h3 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 b {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 823px)
-and (-webkit-device-pixel-ratio : 3) {
-    .main .main-content {
-        flex-direction: column;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 823px) and (-webkit-device-pixel-ratio: 3) {
+  .main .main-content {
+    flex-direction: column;
+  }
 
-    .main .description {
-        width: calc(100% - 40px);
-    }
+  .main .description {
+    width: calc(100% - 40px);
+  }
 
-    .main .main-content .preview-mobile {
-        display: flex;
-    }
+  .main .main-content .preview-mobile {
+    display: flex;
+  }
 
-    .main .main-content .preview {
-        display: none;
-    }
+  .main .main-content .preview {
+    display: none;
+  }
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 737px) {
-    .main .main-content {
-        flex-direction: column;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 737px) {
+  .main .main-content {
+    flex-direction: column;
+  }
 
-    .main .description {
-        width: calc(100% - 40px);
-    }
+  .main .description {
+    width: calc(100% - 40px);
+  }
 
-    .main .main-content .preview-mobile {
-        display: flex;
-    }
+  .main .main-content .preview-mobile {
+    display: flex;
+  }
 
-    .main .main-content .preview {
-        display: none;
-    }
+  .main .main-content .preview {
+    display: none;
+  }
 
-    .snap-assist .main .app-header {
-        margin-bottom: -100px;
-    }
+  .snap-assist .main .app-header {
+    margin-bottom: -100px;
+  }
 
-    .snap-assist .main .text {
-        margin-top: -100px;
-    }
+  .snap-assist .main .text {
+    margin-top: -100px;
+  }
 }
 
-
-
- /* ==========================================================================
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -351,7 +344,7 @@ and (max-device-width : 737px) {
  * Hide visually and from screen readers
  */
 
- .hidden {
+.hidden {
   display: none !important;
 }
 
@@ -423,24 +416,22 @@ and (max-device-width : 737px) {
   clear: both;
 }
 
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
-
 
 /* ==========================================================================
    Print styles.
@@ -448,77 +439,77 @@ and (max-device-width : 737px) {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
 
 .device-macbook-pro .device-content {
-    height: 326px;
-    width: 100%;
+  height: 326px;
+  width: 100%;
 }
