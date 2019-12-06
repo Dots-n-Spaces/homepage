@@ -188,6 +188,50 @@ textarea {
   height: 90px;
 }
 
+.loki .main .main-content .logo img {
+  width: 200px;
+  height: 100%;
+}
+
+.loki .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.loki .wrapper .text {
+  width: 100%;
+  padding: 20px;
+  min-width: 500px;
+}
+
+.loki .app-header h3 {
+  font-family: Roboto;
+  width: 350px;
+}
+
+.loki .step {
+  margin-bottom: 30px;
+}
+
+#mc_embed_signup_scroll {
+  width: 100%;
+  display: flex;
+}
+
+#mc_embed_signup_scroll input {
+  margin-right: 20px;
+}
+
+.loki .tutorial {
+  margin-top: 30px;
+}
+
+.loki .step img {
+  width: 900px;
+}
+
 .main .main-content .logo .placeholder {
   height: 54px;
 }
