@@ -561,3 +561,7 @@ b {
 .loki .main .description {
   padding-top: 0;
 }
+
+#mc_embed_signup .clear {
+  margin-left: 20px;
+}
