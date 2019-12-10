@@ -550,10 +550,14 @@ b {
   margin-right: 20px;
 }
 
-.loki .tutorial {
-  margin-top: 30px;
-}
-
 .loki .step img {
   width: 900px;
+}
+
+.loki .main .main-content {
+  padding: 0;
+}
+
+.loki .main .description {
+  padding-top: 0;
 }
