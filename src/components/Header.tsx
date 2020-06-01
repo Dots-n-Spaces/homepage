@@ -1,26 +1,27 @@
 import "./../styles/App.css";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <div className="header">
       <div className="logo">
-        <a href="/" id="HomePage">
+        <Link to="/" id="HomePage">
           <img
             src="/imgs/logo.png"
             className="logo"
             alt="Dots and Spaces logo"
           />
-        </a>
+        </Link>
       </div>
       <div className="top-menu">
         <ul>
           <li>
-            <a href="/solid-balance">Solid Balance</a>
+            <Link to="/solid-balance">Solid Balance</Link>
           </li>
           <li>
-            <a href="/snap-assist">Snap Assist</a>
+            <Link to="/snap-assist">Snap Assist</Link>
           </li>
         </ul>
       </div>

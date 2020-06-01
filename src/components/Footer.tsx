@@ -1,30 +1,40 @@
 import "./../styles/App.css";
 
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = (props: any) => {
   return (
     <div className="footer">
       <ul>
         <li>
-          <a href="https://github.com/Dots-n-Spaces/Policies/blob/master/PrivacyPolicy.md">
+          <a
+            href="https://github.com/Dots-n-Spaces/Policies/blob/master/PrivacyPolicy.md"
+            target="_blank"
+          >
             Privacy Policy
           </a>
         </li>
         <li>
-          <a href="mailto:dots.n.spaces@gmail.com">Write us</a>
+          <a href="mailto:dots.n.spaces@gmail.com" target="_blank">
+            Write us
+          </a>
         </li>
         <li>
-          <a href="https://twitter.com/dots_and_spaces">Tweet us</a>
+          <a href="https://twitter.com/dots_and_spaces" target="_blank">
+            Tweet us
+          </a>
         </li>
         <li>
-          <a href="http://eepurl.com/gk6-A9">Subscribe for updates</a>
+          <a href="http://eepurl.com/gk6-A9" target="_blank">
+            Subscribe for updates
+          </a>
         </li>
       </ul>
       <ul>
         <li>
           <s>
-            <a href="/loki">Loki</a>
+            <Link to="/loki">Loki</Link>
           </s>
         </li>
         <li>
