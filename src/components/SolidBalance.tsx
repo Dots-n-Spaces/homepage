@@ -63,12 +63,22 @@ export const SolidBalance = () => {
                 Your data never leaves your device. Your privacy - is our
                 priority.
                 <br />
+                <br />
+                <a
+                  href="https://medium.com/dots-and-spaces/solid-balance-v2-0-dbe71ab88649"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more
+                </a>
+                <br />
               </div>
             </div>
             <div className="download">
               <a
                 href={`https://itunes.apple.com/us/app/solid-balance/id1449868247?ls=1&mt=8`}
                 target="_blank"
+                rel="noopener noreferrer"
                 id="DownloadSolidBalance"
               >
                 <img src="/imgs/appstore.png" alt="AppStore logo" />

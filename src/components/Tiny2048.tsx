@@ -35,9 +35,10 @@ export const Tiny2048 = () => {
                 <a
                   href={`https://itunes.apple.com/us/app/solid-balance/id1449868247?ls=1&mt=8`}
                   target="_blank"
+                  rel="noopener noreferrer"
                   id="ReaAboutTiny2048"
                 >
-                  Medium blog post.
+                  Read more
                 </a>
                 <br />
               </div>
@@ -46,6 +47,7 @@ export const Tiny2048 = () => {
               <a
                 href={`https://itunes.apple.com/us/app/solid-balance/id1449868247?ls=1&mt=8`}
                 target="_blank"
+                rel="noopener noreferrer"
                 id="DownloadTiny2048"
               >
                 <img src="/imgs/appstore.png" alt="AppStore logo" />

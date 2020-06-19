@@ -75,27 +75,43 @@ export const SnapAssist = () => {
                   </li>
                 </ul>
                 <br />
-                <br />
                 Currently, application supports fullscreen, halves, and
                 conversation to normal size. Use either keyboard shortcuts or
                 drag&drop window to top/left/right of your screen.
+                <br />
+                <br />
+                <a
+                  href="https://medium.com/dots-and-spaces/snap-assist-75e85ece71b8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more
+                </a>
               </div>
             </div>
             <div className="download">
               <a
                 href="https://github.com/Dots-n-Spaces/Snap-Assist/releases"
                 target="_blank"
+                rel="noopener noreferrer"
                 id="DownloadSnapAssist"
               >
-                <img src="/imgs/github.png" />
+                <img src="/imgs/github.png" alt="Download Snap Assist" />
                 <span>Download</span>
               </a>
             </div>
             <br />
             <br />
             <div>
-              If you like to buy us coffee ☕️ with a croissant 🥐, you can
-              donate to{" "}
+              If you like to buy us coffee{" "}
+              <span role="image" aria-label="coffee">
+                ☕️
+              </span>{" "}
+              with a croissant{" "}
+              <span aria-label="croissant" role="image">
+                🥐
+              </span>
+              , you can donate to{" "}
               <a
                 href={`https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VT7GVV2DR3LZS&source=url`}
                 id="DonateSnapAssist"

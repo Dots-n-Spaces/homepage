@@ -1,8 +1,8 @@
 import "./../styles/App.css";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
-export const NoMatch = (props: any) => {
+export const NoMatch = (_: any) => {
   useEffect(() => {
     document.title = "404";
   }, []);
