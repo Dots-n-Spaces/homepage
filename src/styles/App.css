@@ -177,6 +177,10 @@ textarea {
   width: 100%;
 }
 
+.main .main-content a {
+  color: black;
+}
+
 .snap-assist .main .main-content {
   padding: 0;
 }
