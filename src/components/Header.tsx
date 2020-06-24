@@ -18,7 +18,7 @@ export const Header = () => {
       <div className="top-menu">
         <ul>
           <li>
-            <Link to="/tiny2048">Tiny 2048</Link>
+            <Link to="/tinyalchemy">Tiny Alchemy</Link>
           </li>
           <li>
             <Link to="/solid-balance">Solid Balance</Link>

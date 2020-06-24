@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, HashRouter } from "react-router-dom";
 
 import "./styles/App.css";
-import { Tiny2048 } from "./components/Tiny2048";
+import { TinyAlchemy } from "./components/TinyAlchemy";
 import { SolidBalance } from "./components/SolidBalance";
 import { SnapAssist } from "./components/SnapAssist";
 import { Loki } from "./components/Loki";
@@ -14,10 +14,10 @@ function App() {
       <HashRouter>
         <Switch>
           <Route exact path="/">
-            <Tiny2048 />
+            <TinyAlchemy />
           </Route>
-          <Route path="/tiny2048">
-            <Tiny2048 />
+          <Route path="/tinyalchemy">
+            <TinyAlchemy />
           </Route>
           <Route path="/solid-balance">
             <SolidBalance />
