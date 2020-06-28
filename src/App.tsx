@@ -7,8 +7,12 @@ import { SolidBalance } from "./components/SolidBalance";
 import { SnapAssist } from "./components/SnapAssist";
 import { Loki } from "./components/Loki";
 import { NoMatch } from "./components/NoMatch";
+import ReactGA from "react-ga";
 
 function App() {
+  ReactGA.initialize("UA-58692720-12");
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     <div className="App">
       <HashRouter>
