@@ -61,6 +61,17 @@ export const Footer = (_: any) => {
             </a>
           </s>
         </li>
+        <li>
+          <s>
+            <a
+              href="https://github.com/Dots-n-Spaces/yiyi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YiYi
+            </a>
+          </s>
+        </li>
       </ul>
     </div>
   );
